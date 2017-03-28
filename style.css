@@ -19,13 +19,12 @@ a {
   text-decoration: none;
 }
 .user {
-  display: inline-block;
-  width: 300px;
-  height: 150px;
+  display:inline-block;
+  width: 250px;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  
 }
 
 
@@ -143,7 +142,7 @@ header {
   background-size: cover;
   margin-bottom: 4em;
   text-align: center;
-  height: 300px;
+  height: 500px;
  
 }
 
@@ -168,7 +167,14 @@ header p {
   position: relative;
   top: 360px;
 }
-
+header img {
+  
+  border-radius: 50%;
+  padding-bottom: 1.3em;
+  padding-top: .5em;
+  position: relative;
+ 
+}
 section h1 {
   font-size: 1.8em;
   line-height: 1em;
@@ -418,4 +424,3 @@ footer hr {
   }
   
 }
-
